@@ -1,0 +1,11 @@
+h3 {
+    font-size: 1.2rem;
+}
+
+.projects, .activities {
+    background-color: #eff6ff;
+}
+
+.projects {
+    padding: 20px 15px;
+}
