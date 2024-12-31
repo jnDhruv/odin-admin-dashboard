@@ -1,0 +1,43 @@
+.sidebar {
+    background-color: #1e3a8a;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr;
+}
+
+.dashboard-heading {
+
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: 70px;
+
+    align-items: center;
+
+    & img {
+        width: 50px;
+    }
+
+    & p {
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 1.25rem;
+    }
+}
+
+#heading-icon {
+    height: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.sidebar li a {
+    color: white;
+    text-decoration: none;
+
+    & img {
+        width: 25px;
+    }
+}
