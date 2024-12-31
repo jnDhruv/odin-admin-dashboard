@@ -21,7 +21,7 @@
     grid-template-columns: repeat(5, 1fr);
 }
 
-.searchbar > input {
+.searchbar>input {
     font-family: inherit;
     font-size: 100%;
 
@@ -38,5 +38,60 @@
 }
 
 #user-name {
-    font-weight:900;
+    font-weight: 900;
+}
+
+.header2 {
+    display: grid;
+
+    grid-template-columns: 100px 1fr repeat(3, 100px);
+    grid-template-rows: 100%;
+    align-items: center;
+
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+#pfp-h2 {
+    justify-self: right;
+    margin-right: 15px;
+    height: 60px;
+
+    & >img {
+        border-radius: 50%;
+        width: 60px;
+    }
+}
+
+#user-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+
+    font-weight: bolder;
+}
+
+#greetings {
+    align-self:last baseline;
+    font-size: 0.8rem;
+}
+
+#user-name-with-mention {
+    align-self: first baseline;
+    font-size: 1.25rem;
+
+    & span {
+        font-weight: bold;
+    }
+}
+
+.header-button > button{
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 80px;
+    padding: 8px 0;
+
+    border: none;
+    color: white;
+    background-color: #1e40af;
 }
