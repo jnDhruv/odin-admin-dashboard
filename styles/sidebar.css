@@ -4,11 +4,10 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 70px 1fr;
+    grid-template-rows: 70px repeat(11, 40px);
 }
 
 .dashboard-heading {
-
     display: grid;
     grid-template-columns: 70px 1fr;
     grid-template-rows: 70px;
@@ -33,11 +32,65 @@
     align-items: center;
 }
 
+li:has(#home) {
+    grid-row: 3;
+}
+
+li:has(#profile) {
+    grid-row: 4;
+}
+
+li:has(#messages) {
+    grid-row: 5;
+}
+
+li:has(#history) {
+    grid-row: 6;
+}
+
+li:has(#tasks) {
+    grid-row: 7;
+}
+
+li:has(#communities) {
+    grid-row: 8;
+}
+
+li:has(#settings) {
+    grid-row: 10;
+}
+
+li:has(#support) {
+    grid-row: 11;
+}
+
+li:has(#privacy) {
+    grid-row: 12;
+}
+
 .sidebar li a {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+
     color: white;
     text-decoration: none;
+    align-items: center;
 
     & img {
         width: 25px;
     }
+
+    & p {
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 1rem;
+    }
+}
+
+.sidebar-item-icon {
+    height: 40px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
