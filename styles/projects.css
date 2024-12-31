@@ -61,9 +61,10 @@ h3 {
     grid-row: 4;
     justify-self: right;
     display: grid;
-    grid-template-columns: 30px 30px 30px;
+    grid-template-columns: 40px 40px 40px;
 }
 
 .card-icon>img {
     width: 20px;
+    cursor: pointer;
 }
