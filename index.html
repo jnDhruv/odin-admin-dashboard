@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
 </head>
+
 <body>
     <div class="grid-container">
-        <div class="sidebar">
-            sidebar
-        </div>
+        <nav class="sidebar">
+            <div class="dashboard-heading">
+                <div id="heading-icon">
+                    <img src="icons/sidebar/dashboard.svg" alt="Dash">
+                </div>
+                <p>Dashboard</p>
+            </div>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="home">
+                    <img src="icons/sidebar/home.svg" alt="">
+                </div>
+                <p>Home</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="profile">
+                    <img src="icons/sidebar/profile.svg" alt="">
+                </div>
+                <p>Profile</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="messages">
+                    <img src="icons/sidebar/message.svg" alt="">
+                </div>
+                <p>Messages</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="history">
+                    <img src="icons/sidebar/history.svg" alt="">
+                </div>
+                <p>History</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="tasks">
+                    <img src="icons/sidebar/tasks.svg" alt="">
+                </div>
+                <p>Tasks</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="communities">
+                    <img src="icons/sidebar/communities.svg" alt="">
+                </div>
+                <p>Communities</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="settings">
+                    <img src="icons/sidebar/settings.svg" alt="">
+                </div>
+                <p>Settings</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="support">
+                    <img src="icons/sidebar/support.svg" alt="">
+                </div>
+                <p>Support</p>
+            </a></li>
+            <li><a href="">
+                <div class="sidebar-item-icon" id="privacy">
+                    <img src="icons/sidebar/privacy.svg" alt="">
+                </div>
+                <p>Privacy</p>
+            </a></li>
+        </nav>
         <div class="header1">
             header1
         </div>
@@ -27,4 +96,5 @@
         </div>
     </div>
 </body>
+
 </html>
