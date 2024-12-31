@@ -6,7 +6,7 @@ body {
     font-family: Lato, Arial;
 }
 
-body, ul, li, p, h3, h4 {
+body, ul, li, p, h3, h4, h5 {
     margin: 0;
     padding: 0;
     list-style-type: none;
