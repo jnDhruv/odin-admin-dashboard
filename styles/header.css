@@ -1,0 +1,42 @@
+.header1 {
+    display: grid;
+
+    grid-template-rows: 100%;
+    grid-template-columns: 70px 1fr 70px 70px 120px;
+
+    align-items: center;
+}
+
+.header-icon>img {
+    width: 25px;
+}
+
+#search-icon {
+    justify-self: right;
+    padding-right: 20px;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.searchbar > input {
+    font-family: inherit;
+    font-size: 100%;
+
+    grid-column: 1/5;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eff6ff;
+}
+
+#profile-pic>img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+#user-name {
+    font-weight:900;
+}
